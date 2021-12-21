@@ -2,7 +2,11 @@
 ## SENAI-SP 
 ### UC11 - Aula online 2 e encontro remoto 2.
 
-#### Elaboração de teste de navegabilidade automática no site _Game Mania_ ao fazer um cadastro e realizar login na página.
+#### Elaboração de plano de testes, casos de teste e desenho de teste. Realização de um teste de navegabilidade automática no site _Game Mania_ ao fazer um cadastro e realizar login na página.
+
+**Plano de testes** , acessar em : <https://github.com/MarceloDev100/senai-uc11-testes-gamemania/blob/main/Plano_Testes_GameMania.pdf>
+
+**Casos de testes** ,  acessar em : <https://github.com/MarceloDev100/senai-uc11-testes-gamemania/blob/main/Casos_Teste_GameMania.pdf>
 <br><br>
 
 <h2 align="center">R E L A T Ó R I O (Game Mania) </h2>
