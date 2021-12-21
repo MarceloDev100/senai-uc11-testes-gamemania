@@ -22,7 +22,7 @@ O Selenium consiste num framework que possui um recurso chamado WebDriver, o qua
 
 Dentro da pasta src/test/java foi criado um pacote chamado br.senai.testepagina que contém uma classe chamada LoginGameManiaTest 
 
-Nessa classe foram elaborados procedimentos para configuração **antes (@Before)** do teste ser feito. Estas rotinas foram responsáveis por abrir o navegador Chrome, ficar em dormência por 2 segundos para dar tempo de carregar a página e em seguida poder maximizar o navegador.
+Nessa classe foram elaborados procedimentos para configuração **antes (@Before)** do teste ser feito. Estas rotinas foram responsáveis por apontar o Webdriver (ChromeDriver), abrir o navegador Chrome, ficar em dormência por 2 segundos para dar tempo de carregar a página e em seguida poder maximizar o navegador.
 
 Na fase  de **teste (@Test)** propriamente dita, foi elaborado um código para ter acesso à página inicial do site Game Mania de forma automatizada, para que fosse possível navegar para a página de cadastro, localizar todos os campos em sequência pelo atributo _name_ ,  inserir os dados necessários em cada um deles ,  e então , ao rolar a página para baixo, confirmar a operação através do botão cadastrar. Desta forma, a navegação foi redirecionada para a página de login.
 Em seguida, já na página de login, os campos de usuário e senha foram localizados por _id_, bem como o botão continuar. Após os dados de um usuário cadastrado na etapa anterior serem preenchidos nos referidos campos, a operação de login foi confirmada pelo clique no botão continuar.  Desta forma, a navegação foi redirecionada para a página inicial. 
